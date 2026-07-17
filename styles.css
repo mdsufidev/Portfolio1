@@ -56,7 +56,7 @@ a {
     color: #fff
 }
 
-.brand-logo{width:62px;height:62px;display:flex;align-items:center;justify-content:center;overflow:hidden}.brand-logo img{width:88px;height:88px;max-width:none;object-fit:cover;transform:scale(1.42);mix-blend-mode:multiply;transition:transform .25s ease}.brand-logo:hover img{transform:scale(1.5)}
+.brand-logo{width:52px;height:52px;display:flex;align-items:center;justify-content:center}.brand-logo img{display:block;width:48px;height:48px;transition:transform .25s ease}.brand-logo:hover img{transform:scale(1.07)}
 
 .nav {
     display: flex;

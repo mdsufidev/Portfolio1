@@ -18,7 +18,7 @@ const education = [
 function Header() {
   const [open, setOpen] = useState(false)
   return <header className="topbar">
-    <a className="brand brand-logo" href="#home" aria-label="Muhammad Sufiyan home"><img src="/assets/ms-navbar-logo.png" alt="Muhammad Sufiyan MS monogram"/></a>
+    <a className="brand brand-logo" href="#home" aria-label="Muhammad Sufiyan home"><img src="/favicon.svg" alt="Muhammad Sufiyan MS monogram"/></a>
     <button className={`menu-toggle ${open ? 'open' : ''}`} aria-label="Toggle menu" aria-expanded={open} onClick={() => setOpen(!open)}><span/><span/></button>
     <nav className={`nav ${open ? 'nav-open' : ''}`} aria-label="Primary navigation">
       {['about','work','skills','contact'].map(item => <a key={item} onClick={() => setOpen(false)} href={`#${item}`}>{item[0].toUpperCase()+item.slice(1)}</a>)}
