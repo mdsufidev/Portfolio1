@@ -71,7 +71,7 @@ const botReply = message => {
   if (text.includes('skill') || text.includes('tech')) return 'Muhammad works with Java, Spring Boot, REST APIs, Hibernate/JPA, MySQL, Maven, Git and Postman.'
   if (text.includes('project') || text.includes('work')) return 'His featured backend projects are GetKiver and Employee Management. You can explore both in the Projects section.'
   if (text.includes('resume') || text.includes('cv')) return 'You can download Muhammad’s resume from the Download Resume button in the hero section.'
-  if (text.includes('contact') || text.includes('email') || text.includes('hire')) return 'You can use the Contact form or email Muhammad at sufi111729@gmail.com. He usually replies within 24–48 hours.'
+  if (text.includes('contact') || text.includes('email') || text.includes('phone') || text.includes('number') || text.includes('hire')) return 'You can contact Muhammad at +91 63065 56033 or email him at sufi111729@gmail.com. He usually replies within 24–48 hours.'
   if (text.includes('available') || text.includes('location')) return 'Muhammad is based in New Delhi, India and is available for Java backend opportunities.'
   if (text.includes('github')) return 'You can view his code at github.com/mdsufidev.'
   if (text.includes('linkedin')) return 'You can connect with Muhammad at linkedin.com/in/mdsufidev.'
